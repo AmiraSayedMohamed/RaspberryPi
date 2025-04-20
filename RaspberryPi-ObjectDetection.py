@@ -1,3 +1,11 @@
+# You should firsgt create a viraul environment to instlal the libraries in 
+# python3 -m venv myenv
+# source myenv/bin/activate
+# myenv\Scripts\activate
+# pip install ultralytics
+# pip install opencv-python
+
+
 from picamera2 import Picamera2
 from ultralytics import YOLO
 import numpy as np
