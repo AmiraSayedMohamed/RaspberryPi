@@ -1,0 +1,8 @@
+# go into this directory using this command  << sudo nano /boot/config.txt   
+# and paste these lines
+
+
+camera_auto_detect=1
+dtoverlay=imx708
+start_x=1
+gpu_mem=128
