@@ -4,6 +4,15 @@
 # Or you can also run the camera automatically from the terminal using libcamera library
 # To open Camera Using libCameraLibrary First install the library using this command : 
 # ( sudo apt install -y libcamera-apps ) , Then open Camera Using this command:( libcamera-hello )
+# ---------------------------------------------------
+# Here it's also some command also you need for depugging the camera:
+# sudo apt update
+# sudo apt full-upgrade -y
+# sudo rpi-update
+# sudo reboot
+# libcamera-hello --list-cameras
+# dmesg | grep camera
+
 
 from picamera2 import Picamera2
 import cv2
