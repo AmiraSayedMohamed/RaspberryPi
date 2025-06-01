@@ -10,3 +10,9 @@ This Repositery With Contain EveryThing Related to the raspberryPi
 - python3 -m venv yolovenv
 - source yolovenv/bin/activate
 - pip install ultralytics
+  ### if he doesn't detect ultralytics although it was installes
+  - go in the global path and write this command :
+    ``` bash
+pip install ultralytics --break-system-packages
+``` 
+
