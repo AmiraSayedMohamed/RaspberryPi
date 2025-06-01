@@ -12,7 +12,7 @@ This Repositery With Contain EveryThing Related to the raspberryPi
 - pip install ultralytics
   ### if he doesn't detect ultralytics although it was installes
   - go in the global path and write this command :
-    ``` bash
+``` bash
 pip install ultralytics --break-system-packages
 ``` 
 
