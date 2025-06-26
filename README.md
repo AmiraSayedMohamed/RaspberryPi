@@ -16,3 +16,4 @@ This Repositery With Contain EveryThing Related to the raspberryPi
 pip install ultralytics --break-system-packages
 ``` 
 
+best(1).pt , is a model trained using yolov8n  on custom dataset on Toxoptera aurantii  insect (black citrus aphid)
