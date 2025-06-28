@@ -12,7 +12,7 @@
 # sudo reboot
 # libcamera-hello --list-cameras
 # dmesg | grep camera
-
+# to install picamera2 : sudo apt update && sudo apt install -y python3-picamera2 python3-libcamera
 
 from picamera2 import Picamera2
 import cv2
